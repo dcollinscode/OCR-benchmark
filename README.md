@@ -7,10 +7,10 @@ and reference behind the scores is in this repository.
 
 - [Results](#results), then [cost and latency](#cost-and-latency)
 - [How it was tested](#how-it-was-tested): engines and versions, documents, scoring
-- [View the results yourself](#view-the-results-yourself): terminal report and browser viewer, or the [hosted viewer](https://ilsilfverskiold.github.io/ocr-engine-evaluation/) with no setup
+- [View the results yourself](#view-the-results-yourself): terminal report and browser viewer, or the [hosted viewer](https://dcollinscode.github.io/ocr-engine-evaluation/) with no setup
 - [Run the benchmark](#run-the-benchmark): with the engines here, or with an engine you add
 
-The [hosted viewer](https://ilsilfverskiold.github.io/ocr-engine-evaluation/)
+The [hosted viewer](https://dcollinscode.github.io/ocr-engine-evaluation/)
 shows this run in the browser, with no setup: the comparison tables and charts,
 and for every engine, page and leg the prompt sent, the full reply, the output
 beside its reference and the scorer's verdict per item.
@@ -284,7 +284,7 @@ The engine ID is the value `--engines` takes.
 ### Documents
 
 93 single-page images from public datasets, hosted as the HuggingFace dataset
-[`ilsilfverskiold/ocr-benchmark`](https://huggingface.co/datasets/ilsilfverskiold/ocr-benchmark).
+[`dcollinscode/ocr-benchmark`](https://huggingface.co/datasets/dcollinscode/ocr-benchmark).
 References are committed under `documents/`. Text references are 63
 human-written and 19 model-verified pages; the other 11 use the judged-text
 estimate. The table shows reference coverage per leg.
@@ -359,7 +359,7 @@ limit; the harness and the viewer read it as is.
 ### Browser viewer
 
 A hosted copy of the viewer needs no setup:
-<https://ilsilfverskiold.github.io/ocr-engine-evaluation/>. It is published to
+<https://dcollinscode.github.io/ocr-engine-evaluation/>. It is published to
 GitHub Pages from this repository on every push to `main`
 (`.github/workflows/pages.yml`). To run it from this repository instead, follow
 the steps below.
