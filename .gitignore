@@ -2,7 +2,7 @@
 .env
 
 # Document images live on HuggingFace; reference sidecars ship in Git.
-# (https://huggingface.co/datasets/ilsilfverskiold/ocr-benchmark).
+# (https://huggingface.co/datasets/dcollinscode/ocr-benchmark).
 # Fetch with: python scripts/download_data.py
 # Corpus metadata and scoring references are committed.
 documents/*

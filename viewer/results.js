@@ -702,7 +702,7 @@ const Results = (() => {
     el("leg-tabs").querySelectorAll(".tab").forEach(n => n.onclick = () => update({leg: n.dataset.v}));
     el("doc-tabs").querySelectorAll("select").forEach(s => s.onchange = () => update({[s.dataset.f]: s.value}));
   }
-  const REPO = "https://github.com/ilsilfverskiold/ocr-engine-evaluation";
+  const REPO = "https://github.com/dcollinscode/OCR-benchmark";
   const SCORING = REPO + "/blob/main/public_docs/scoring-design.md";
   const link = (href, text) => `<a href="${href}" target="_blank" rel="noopener">${esc(text)}</a>`;
   // How each leg is measured, in plain words (public_docs/scoring-design.md has the full rules), and its section there.

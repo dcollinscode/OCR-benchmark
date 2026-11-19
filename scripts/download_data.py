@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-REPO_ID = "ilsilfverskiold/ocr-benchmark"
+REPO_ID = "dcollinscode/ocr-benchmark"
 DOCS_DIR = ROOT / "documents"
 
 
